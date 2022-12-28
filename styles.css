@@ -233,9 +233,9 @@ p{
 }
 
 @media (max-width: 1615px) {
-     *{
-    /* background-color:rgb(230, 146,146) */
-    } 
+     /* *{
+    background-color:rgb(230, 146,146)
+    }  */
     .buttons{
         font-size: 6px;
     }
