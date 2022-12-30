@@ -12,39 +12,53 @@
 </head>
 
 <body>
+  <style>
+    body {
+      background-image: url('images.jpg');
+    }
+  </style>
   <div class="container">
     <div class="sidebar sidebarGo">
       <nav>
         <li> <a href="/port_folio">Home</a></li>
         <li><a href="./intro.html">My Intro</a> </li>
-            <li> <a href="./experience.html">Experience</a></li>
-            <li><a href="./Rajiv's Resume.pdf">CV</a></li>
-            <li><a href="./blog.html">Blog</a></li>
-            <li><a href="./contact.html">Contact Me</a></li>   
+        <li> <a href="./experience.html">Experience</a></li>
+        <li><a href="./Rajiv's Resume.pdf">CV</a></li>
+        <li><a href="./blog.html">Blog</a></li>
+        <li><a href="./contact.html">Contact Me</a></li>
       </nav>
     </div>
     <div class="main">
       <div class="hamburger">
-        <img class="hamb" src="hamb.png" alt="" width = "45">
-        <img class="cross" src="cross.png" alt="" width = "25">
+        <img class="hamb" src="hamb.png" alt="" width="45">
+        <img class="cross" src="cross.png" alt="" width="25">
       </div>
-      <div class = "intro">
-          <h1>About me</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt corrupti, sapiente quia fuga iste ratione
-            recusandae vero dolores nostrum quis quidem facilis qui magni id nobis quisquam omnis? Repellendus, ex. </p>
-          <h2>My Skills</h2>
-          <div class="skillcontainer">
-           <div class = "skillItem">HTML: <div class = "skill t5"></div></div> 
-           <div class = "skillItem">CSS: <div class = "skill"></div></div>
-           <div class = "skillItem">JavaScript: <div class = "skill"></div></div>
-           <div class = "skillItem">NodeJs: <div class = "skill"></div></div>
-          </div>
-          <!-- <!TODO : Create a gallery for my projects...> -->
-          </div>
-        </div>
+      <div class="infoContainer">
+        <div class="devInfo">
+          <div class="blogContainer">
+            <h1> Experience </h1>
+            <div class="blogItem">
+              <h2> Grapvine | Ambassador</h2>
+              <h6>1. Social media amplification of different brand properties</h6>
+              <h6> 2. Actively promoting the brands within their respective university </h6>
+              <h6> 3. Digital engagement and communication of brand campaigns and assets</h6>
+            </div>
+            <div class="blogItem">
+              <h2>SFY Tech | Freelancing</h2>
+              <h6> Assisting students and faculty to attend exam and start. Resolving the internet issue and application
+                issue </h6>
+            </div>
+            <div class="blogItem">
+              <h2>Function Up | Backend Traniee</h2>
+              <h6>Learn New Technologies Like JS, NodeJS, MongoDb, Git. Done Projects Based on Backend.</h6>
+            </div>
 
+          </div>
+          <div class="devPic"><img src="images.jpg" alt="Rajiv Kumar"> </div>
+        </div>
       </div>
-      <script src="script.js"></script>
+    </div>
+    <script src="script.js"></script>
 </body>
 
 </html>
