@@ -80,7 +80,8 @@ body {
     margin: 144px auto;
     display: flex;
     /* padding : 23px; */
-    justify-content: space-around;
+    /* justify-content: space-around; */
+    align-items: left;
 }
 
 .devInfo {
@@ -202,6 +203,7 @@ body {
 
 .blogContainer {
     margin: 40px 88px;
+    
 }
 
 h1 {
@@ -212,6 +214,8 @@ h1 {
 
 p {
     font-family: 'Source Code Pro', monospace;
+    color: white;
+    font: bolder;
 }
 
 .intro {
@@ -285,7 +289,7 @@ p {
     margin-left: 188px;
 }
 #social img{
-    margin-right: 20px;
+    margin-right: 40px;
 }
 
 @media (max-width: 1615px) {
@@ -309,5 +313,25 @@ p {
     .blogContainer,
     .contactform {
         margin: 50px 8px;
+        
     }
+}
+
+#mobile :hover{
+    background-color: grey;
+}
+
+#mobile{
+    color: black;
+    font-weight: bold;
+}
+
+#mail{
+    color: black;
+    font-weight: bold;
+}
+
+#loca{
+    color: black;
+    font-weight: bold;
 }
