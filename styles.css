@@ -284,6 +284,9 @@ p {
 .cross {
     margin-left: 188px;
 }
+#social img{
+    margin-right: 20px;
+}
 
 @media (max-width: 1615px) {
 
