@@ -1,16 +1,49 @@
 @import url('https://fonts.googleapis.com/css2?family=Andika:ital,wght@1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
 
+
+    body {
+      background-image: url('keybord.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: 100% 100%;
+      
+    }
+ 
+
 *{
     margin: 0;
     padding: 0;
 }
+
+
+
+/* .topnav {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav :hover {
+    background-color: #ddd;
+    color: black;
+  } */
+
+
+
+
+
+
 .sidebar{
-    position : absolute;
+    position: sticky;
+    float: left;
     background-color: rgb(220, 216, 216);
-    /* width: 434px; */
+    width: 234px;
     font-family: 'Andika', sans-serif;
-    height: 100vh;
+    height: 100%;
     transition: transform 0.3s ease-in;
 }
 
@@ -26,7 +59,7 @@
 
 .sidebar nav li a{
    text-decoration:none ;
-   color:rgb(20, 20, 20);
+   color:rgb(23, 28, 28);
 
 }
 
@@ -37,6 +70,7 @@
 
 .container{
     display: flex;
+
 }
 
 .infoContainer{
@@ -58,24 +92,28 @@
 } 
 
 .hello{
-    font-size: 3em;
+    font-size: 5em;
     /* padding-left: 25px; */
+    color: #6fe5eb;
 }
 
 .name{
-    font-size: 3em;
+    font-size: 5em;
     font-weight: bold;
     font-family: 'Andika', sans-serif;
+    color: #6fe5eb;
 }
 
 .about{
-    font-size: 2.5em;
+    font-size: 4em;
+    color: #6fe5eb;
 }
 
 .moreabout{
-    font-size: 2em;
+    font-size: 3em;
     margin-top:23px  ;
     font-family: 'Andika', sans-serif;
+    color: #6fe5eb;
 }
 
 .buttons{
@@ -87,8 +125,8 @@ font-size: 16px;
 .btn{
     padding: 9px 14px;
     border-radius: 22px;
-    color: white;
-    background-color:dodgerblue;
+    color: black;
+    background-color: dodgerblue;
     font-weight: bold;
     font-size: 21px;
     margin: 3px 3px;
@@ -156,6 +194,7 @@ margin: 3px 0 ;
 .blogItem{
 margin: 20px;
 font-family: 'Fira Sans' , sans-serif; 
+color: aliceblue;
 }
 .blogContainer{
     margin: 40px 88px;
@@ -163,6 +202,7 @@ font-family: 'Fira Sans' , sans-serif;
 h1{
     font-family: 'Fira Sans' , sans-serif;
     margin: 23px; 
+    color: antiquewhite;
 }
 p{
     font-family: 'Source Code Pro' , monospace;
