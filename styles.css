@@ -3,10 +3,11 @@
 
 
 body {
-    background-image: url('keybord.jpg');
+    /* background-image: url('keybord.jpg'); */
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
+    background-color: black;
 
 }
 
@@ -225,32 +226,35 @@ p {
 .intro h2 {
     font-family: 'Fira Sans', sans-serif;
     margin: 12px;
+    color: antiquewhite;
 }
 
-.intro p {
+.intro h5 {
     font-family: 'Source Code Pro', monospace;
     margin: 12px;
+    color: antiquewhite;
 }
 
 .skillcontainer {
     padding: 12px;
+    color: antiquewhite;
 }
 
-.skillItem {
+/* .skillItem {
     display: flex;
     align-items: center;
     font-family: 'Source Code Pro', monospace;
     font-weight: 900;
 
 
-}
+} */
 
-.skill {
+/* .skill {
     width: 265px;
     height: 6px;
     background-color: red;
     border: 2px solid black;
-}
+} */
 
 .hundered {
     width: 265px;
@@ -335,3 +339,4 @@ p {
     color: black;
     font-weight: bold;
 }
+
